@@ -1,0 +1,6 @@
+npm init (enter, enter, ....)
+type: module
+npm i express nodemon ejs mongoose multer cors
+
+
+

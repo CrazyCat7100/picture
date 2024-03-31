@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Upload Ultra</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1 class="welcome">Welcome To Picture Upload Ultra!</h1>
+    
+    <div class="upload">
+        <form method="post" action="/file"  enctype="multipart/form-data">
+        <input type="file" name="photo" accept="image/*" class="input">
+        <button class="submit" type="button">Upload</button>
+        <h1>You can upload any <br> picture files up to 1GB.</h1>
+        <a href="/files" class="count">See all uploaded files (0)</a>
+    </form>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
